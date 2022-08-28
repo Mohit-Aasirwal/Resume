@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.btn{
+@apply rounded-full m-2
+  bg-cyan-900 
+  pl-2 
+  pr-2 
+  font-normal
+ text-white
+ after:bg-cyan-900
+ hover:bg-cyan-800
+ hover:underline
+}
+
+@tailwind utilities;
