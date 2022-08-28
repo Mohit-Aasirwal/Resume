@@ -4,7 +4,8 @@
   "description": "Resume Website with TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite", 
+    "build": "vite build"
   },
   "author": "Mohit Aasirwal",
   "license": "ISC",
