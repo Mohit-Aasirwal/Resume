@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
-.btn{
-@apply rounded-full m-2
+.btn {
+  @apply rounded-full m-2
   bg-cyan-900 
   pl-2 
   pr-2 
@@ -9,7 +9,37 @@
  text-white
  after:bg-cyan-900
  hover:bg-cyan-800
- hover:underline
+ hover:underline;
 }
 
 @tailwind utilities;
+
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+/* Mozilla Firefox */
+::-moz-scrollbar {
+  width: 5px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+/* Microsoft Edge and Internet Explorer */
+::-ms-scrollbar {
+  width: 5px;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
